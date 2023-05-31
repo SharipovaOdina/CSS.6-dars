@@ -1,0 +1,26 @@
+.block{
+    width: 1200px;
+    margin: 0 auto;
+}
+.block-item{
+    margin: 20px;
+    width: 1200px;
+    height: 200px;
+    background: linear-gradient(180deg, darkred, dodgerblue, mediumspringgreen);
+    box-shadow: 5px 5px 10px rgba(80,80,80,0.5);
+    padding: 40px;
+}
+.block-item2{
+    margin: 20px;
+    width: 1200px;
+    height: 200px;
+    background: linear-gradient(90deg, orange, yellow, green, blue, rebeccapurple);
+    box-shadow: 5px 5px 10px rgba(80,80,80,0.5);
+    padding: 40px;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 75px;
+}
+

@@ -1,0 +1,45 @@
+.box{
+    width: 1000px;
+    height: 400px;
+    margin: 100px auto;
+    background: linear-gradient(360deg,midnightblue,dodgerblue);
+}
+.luna{
+    width: 150px;
+    height: 150px;
+    background-color: #7fea7f;
+    position: fixed;
+    top: 280px;
+    left: 600px;
+    right: 800px;
+    bottom: 20px;
+    border-radius: 25px;
+    animation-name: luna;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes luna {
+    0%{
+        transform: translate(500px,-50px);
+        background: #7ed8ee;
+    }
+    25%{
+        transform: translate(500px,50px);
+        background: white;
+    }
+    50%{
+        transform:rotate(180deg) translate(-300px,50px);
+        background: #ca57a0;
+    }
+    75%{
+        transform: translate(0,-50px);
+        background: white;
+    }
+    100%{
+        transform: translate(0,50px);
+        background: #7fea7f;
+    }
+}
+

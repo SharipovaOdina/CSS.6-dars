@@ -1,0 +1,155 @@
+.wrap{
+    width: 1200px;
+    margin: 30px auto;
+}
+h1{
+    text-shadow: 2px 5px 10px red,-2px -5px 10px #7de29e;
+}
+.row{
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+    transition: all 0.5s ease-in-out;
+}
+.col{
+    width: 30%;
+    display: block;
+    float: left;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    -moz-box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    -o-box-shadow: 0 0 10px rgba(80,80,80,0.3);
+    transition: all 0.5s ease-in-out;
+}
+.col:hover{
+    box-shadow: 0 0 10px rgba(80,80,80,0.8);
+    -webkit-box-shadow: 0 0 10px rgba(80,80,80,0.8);
+
+}
+.row:nth-child(2) .col{
+    background: radial-gradient(red);
+}
+.row:nth-child(2) .sana{
+    background: radial-gradient(aqua,brown,coral,darkolivegreen);
+}
+.row:nth-child(3) .col{
+    background: linear-gradient(45deg,#7579e2,firebrick,gainsboro,hotpink);
+}
+.row:nth-child(3) .sana{
+    background: linear-gradient(45deg,#7579e2,firebrick,gainsboro,hotpink);
+}
+.row:nth-child(4) .col{
+    background: linear-gradient(135deg,ivory,navajowhite,khaki,lightgreen);
+}
+.row:nth-child(4) .sana{
+    background: linear-gradient(135deg,ivory,navajowhite,khaki,lightgreen);
+}
+.row:nth-child(5) .col{
+    background: radial-gradient(magenta,cyan,lightgoldenrodyellow,plum);
+}
+.row:nth-child(5) .sana{
+    background: radial-gradient(magenta,cyan,lightgoldenrodyellow,plum);
+}
+.row:nth-child(6) .col{
+    background: linear-gradient(135deg,ivory,khaki,lightgreen);
+}
+.row:nth-child(6) .sana{
+    background: linear-gradient(135deg,ivory,navajowhite,khaki,lightgreen);
+}
+.row:nth-child(7) .col{
+    background: linear-gradient(135deg,ivory,navajowhite,khaki,lightgreen);
+}
+.row:nth-child(7) .sana{
+    background: linear-gradient(135deg,ivory,navajowhite,khaki,lightgreen);
+}
+.row:nth-child(8) .col{
+    background: radial-gradient(ivory,navajowhite,khaki,lightgreen);
+}
+.row:nth-child(8) .sana{
+    background: radial-gradient(ivory,navajowhite,khaki,lightgreen);
+}
+.row:nth-child(9) .col{
+    background: linear-gradient(135deg,ivory,navajowhite,khaki,lightgreen);
+}
+.row:nth-child(9) .sana{
+    background: linear-gradient(135deg,ivory,navajowhite,khaki,lightgreen);
+}
+.row:nth-child(10) .col{
+    background: linear-gradient(lightgreen);
+}
+.row:nth-child(10) .sana{
+    background: linear-gradient(lightgreen);
+}
+.row:nth-child(11) .col{
+    background: radial-gradient(lightgreen);
+}
+.row:nth-child(11) .sana{
+    background: radial-gradient(lightgreen);
+}
+.row:nth-child(12) .col{
+    background: linear-gradient(lightgreen);
+}
+.row:nth-child(12) .sana{
+    background: linear-gradient(lightgreen);
+}
+.row .col:nth-child(2){
+    margin: 0 5%;
+}
+.row:nth-child(2) .col:first-child .sana{
+    background: radial-gradient(lightgreen);
+}
+.row:nth-child(6) .col:nth-child(2) .sana{
+
+}
+.row:nth-child(2) .col:hover{
+    transform: translateY(-100px) scale(1.3,2.4);
+}
+.row:nth-child(3) .col:hover{
+    transform: rotateX(180deg) translateX(-60px);
+}
+.row:nth-child(4) .col:hover{
+    transform: skew(20deg) scale(0.8,0.5);
+}
+.row:nth-child(5) .col:hover{
+    transform: rotateY(360deg) scaleX(3);
+}
+.row:nth-child(6) .col:hover{
+    transform: translateZ(100px) skewY(40deg);
+}
+.row:nth-child(7) .col:hover{
+    transform: skewX(70deg) rotateX(237deg);
+}
+.row:nth-child(8) .col:hover{
+    transform: translateY(158px) rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+.row:nth-child(9) .col:hover{
+    transform: translateX(200px) scale(0.3,0.4) skew(180deg);
+}
+.row:nth-child(10) .col:hover{
+    transform: translateX(-100px) skew(180deg) ;
+}
+.row:nth-child(11) .col:hover{
+    transform: translate(300px,200px) rotateX(360deg) scaleY(1.5);
+}
+.row:nth-child(12) .col:hover{
+    transform: translate(80px,80px) scale(0.6,0.6) rotate(260deg) skew(200deg,160deg);
+}
+.sana{
+    padding: 5rem 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(45deg,green);
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.text-sana{
+    padding: 1.5rem 0;
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
